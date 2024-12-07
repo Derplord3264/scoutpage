@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(36, 36, 36);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    background-color: rgb(48, 48, 48);
+    margin: 35px;
+    padding: 3vh;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    height: 110vh;
+}
+
+.articlebar {
+    background-color: rgb(66, 66, 66);
+    margin: 55px;
+    padding: 3vh;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.articlebar:hover {
+    background-color: rgb(85, 85, 85);
+    scale: 1.025;
+    box-shadow: 10px 10px;
+}
+
+.kotext{
+    font:bold 7rem 'Helvetica', Sans-serif;
+    text-align: center;
+    background-image:url(abstract.jpg);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.bigtext {
+    font:bold 1.5rem 'Helvetica', Sans-serif;
+}
+
+.biggertext {
+    font:bold 2rem 'Helvetica', Sans-serif;
+}
+
+.biggesttext {
+    font:bold 2.5rem 'Helvetica', Sans-serif;
+}
+
+.smallbox {
+    background-color:rgb(56, 56, 56);
+    border-radius: 25px;
+    width: 65vh;
+    padding: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+img {
+    border-radius: 55px;
+}
+
+.imgframe {
+    border-radius: 55px;
+    background-color: rgb(56, 56, 56);
+    padding: 3vh;
+    height: fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}

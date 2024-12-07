@@ -1,0 +1,52 @@
+<!doctype HTML>
+<html>
+    <main>
+        <head>
+            <title>Home | GCPUB</title>
+            <link rel="stylesheet" href="styles.css">
+            <script>
+                function redirectToExternalResource() {
+                    window.location.href = 'https://www.youtube.com/watch?v=BL4DCEp7blY'
+                }
+
+                function redirectToArticle1() {
+                    window.location.href = 'articles/article1.html'
+                }
+                
+                function redirectToArticle2() {
+                    window.location.href = 'articles/article2.html'
+                }
+
+                function redirectToArticle3() {
+                    window.location.href = 'articles/article3.html'
+                }
+            </script>
+        </head>
+        <body>
+            <div class="content">
+                <h1 class="kotext">Welcome to GCPUB!</h1>
+                <b class="biggertext">Your one-stop shop for computer tips and guides!</b>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <br>
+                <br>
+                <b class="bigtext">Our Articles</b>
+                <div class="articlebar" onclick="redirectToArticle1()">
+                    <b>How to build a computer: Part 1 - Buying Parts</b>
+                </div>
+                <div class="articlebar" onclick="redirectToArticle2()">
+                    <b>How to build a computer: Part 2 - CPU, RAM, and Motherboard</b>
+                </div>
+                <div class="articlebar" onclick="redirectToArticle3()">
+                    <b>How to build a computer: Part 3 - Finishing it up</b>
+                </div>
+                <b class="bigtext">External Sources</b>
+                <div class="articlebar" onclick="redirectToExternalResource()">
+                    <b>LTT: How to build a PC, the last guide you'll ever need!</b>
+                </div>
+            </div>
+        </body>
+    </main>
+</html>
